@@ -6,7 +6,7 @@ import {
   FileText, 
   Plus, 
   FolderOpen, 
-  Template, 
+  Layout, 
   Cloud, 
   Settings, 
   User,
@@ -83,7 +83,7 @@ export function StartPage() {
                         <Plus className="w-12 h-12 text-blue-400" />
                       ) : (
                         <div className="w-full h-full bg-gray-100 rounded-t-lg flex items-center justify-center">
-                          <Template className="w-8 h-8 text-gray-400" />
+                          <Layout className="w-8 h-8 text-gray-400" />
                         </div>
                       )}
                     </div>
